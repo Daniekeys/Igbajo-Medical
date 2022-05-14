@@ -12,7 +12,12 @@ interface PropsState {
 
 const Card: FC<PropsState> = ({  title, image, doctor, text }) => {
   return (
-    <div className={styles.newsImgContainer}>
+    <div className={styles.newsImgContainer}
+    style={{
+      position:"relative"
+    }}
+    
+    >
       <div
         style={{
           backgroundImage: `url(${image})`,
@@ -22,7 +27,10 @@ const Card: FC<PropsState> = ({  title, image, doctor, text }) => {
           height: "30vh",
           width: "100%",
           overflowX: "hidden",
-          position: "relative",
+          position: "absolute",
+          top:0,
+          left:0,
+         
         }}
       >
         {/* <img src={image} alt={title} className={styles.newsImg} /> */}

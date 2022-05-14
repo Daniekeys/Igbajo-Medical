@@ -31,7 +31,7 @@ const Departments = () => {
             in these departments
           </p>
         </div>
-        <div className={styles.cardContainer}>
+        <div className={styles.cardContainer1}>
           {departments.map((item, index) => {
             return (
               <Card

@@ -45,7 +45,7 @@ const Meet = () => {
           </div>
           <div className={styles.meetImgContainer}>
             <img src={frame3} alt="frame3" className={styles.meetImg} />
-            <p className={styles.member}>Member 1\3</p>
+            <p className={styles.member}>Member 3</p>
           </div>
         </div>
         <div className={styles.btnCenter}>

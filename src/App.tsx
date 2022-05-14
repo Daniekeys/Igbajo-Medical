@@ -7,6 +7,7 @@ import MedicalService from './components/MedicalService'
 import Meet from './components/Meet'
 import News from './components/News'
 import Help from './components/Help'
+import Footer from './components/Footer'
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Meet />
       <News />
       <Help />
+      <Footer />
     </div>
   );
 }
