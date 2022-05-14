@@ -1,9 +1,9 @@
 export const styles = {
   headerContainer: "flex bg-white justify-center items-center mt-6 mb-8 ",
   headerParker: "w-11/12 flex justify-between items-center space-x-6",
-  headerLogoContainer: "w-2/12 h-full flex justify-start items-center",
+  headerLogoContainer: "w-1/12 h-full flex justify-start items-center",
   headerLogo: "w-5/12 h-full",
-  headerNavContainer: "w-8/12 h-full flex justify-between items-center",
+  headerNavContainer: "w-9/12 flex-grow h-full flex justify-between space-x-8 items-center",
   headerLink: "link text-dark cursor-pointer",
   headerBtnContainer: "w-2/12 justify-end items-center h-full",
   headerBtn: "btn-text bg-green text-white px-8 py-[0.75rem] rounded-sm",
